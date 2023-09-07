@@ -17,7 +17,7 @@ The project begins by accessing data from various Application Programming Interf
 
 These steps outline the data acquisition process, encompassing the extraction and organization of bike station and POI data from multiple APIs to facilitate comprehensive analysis.
 
-### Cleaning and Transforming Data Using Python:
+### 2. Cleaning and Transforming Data Using Python:
 Following data acquisition, a rigorous cleaning and transformation process ensures data integrity. This process encompasses rectifying inconsistencies, handling missing values, and standardizing data formats. Notably, this procedure is applied to both the Yelp and Foursquare datasets. The outcomes of this transformation are subsequently compared, and the assessment encompasses the following aspects:
 * Number of Points of Interest (POIs): A comparison is made regarding the quantity of POIs returned by each API for the city of Hamilton. A higher count of POIs may signify a more extensive and diverse range of available places within the area.
 * Depth of Information: The completeness of information provided for each POI is evaluated. This includes essential details such as names, addresses, categories, ratings, and user-generated content such as reviews and photos. A comprehensive dataset for each POI can serve as an indicator of data quality.
